@@ -25,6 +25,11 @@
   box-sizing: border-box;
 }
 
+html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -395,14 +400,11 @@ a:hover { color: var(--color-brand-light); }
   align-items: stretch;
   justify-content: space-around;
   padding: 8px;
-  overflow: hidden;
-  max-width: 100%;
 }
 
 .screenshot-img {
   height: 425px;
   width: auto;
-  max-width: 100%;
   object-fit: contain;
 }
 
