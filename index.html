@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>.ORG Projects</title>
+  <link rel="stylesheet" href="styles/index.css">
+  <script src="scripts/index.js" defer></script>
+</head>
+
+<body>
+  <div class="page-wrapper">
+    <div class="page-grid">
+
+      <!-- Navbar -->
+      <nav class="navbar" id="main-navbar">
+        <div class="navbar-projects-btn">
+          <a class="navbar-projects-btn-link">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="1em"
+              class="navbar-projects-btn-icon" role="img">
+              <path fill="currentColor"
+                d="M12 17.5a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m7 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m-14 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m7-7a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m7 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m-14 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m7-7a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m7 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3m-14 0a1.5 1.5 0 1 1 0 3 1.5 1.5 0 0 1 0-3" />
+            </svg>
+          </a>
+        </div>
+        <div class="navbar-content">
+          <div class="navbar-brand">
+            <a class="navbar-brand-link" href="https://dotorg-projects.github.io/">
+              <img alt=".ORG Projects" src="images/dotorg-projects-logo.png" class="navbar-logo" />
+              <div class="navbar-logo-spacer"></div>
+              <div class="navbar-brand-name">.ORG Projects</div>
+            </a>
+          </div>
+          <div class="navbar-links">
+            <a class="navbar-link" href="#about_us">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="1em"
+                class="navbar-link-icon" role="img">
+                <path fill="currentColor"
+                  d="M12 1.999c5.524 0 10.002 4.478 10.002 10.002q-.002.996-.188 1.94a3 3 0 0 0-1.32-1.56 8.5 8.5 0 0 0-.23-2.381h-3.358a21 21 0 0 1 .081 2.76A3 3 0 0 0 16 14.983c0 .592.172 1.145.469 1.61q-.05.2-.104.393a2.5 2.5 0 0 0-2.078 1.332c.249-.53.47-1.142.652-1.819H9.061c.652 2.414 1.786 4.002 2.94 4.002.795 0 1.582-.756 2.207-2.019a2.5 2.5 0 0 0-.208 1 4.4 4.4 0 0 0 .556 2.19c-.816.215-1.672.33-2.556.33-5.524 0-10-4.479-10-10.002C1.999 6.477 6.476 1.999 12 1.999M7.508 16.501H4.786a8.53 8.53 0 0 0 4.094 3.41c-.522-.82-.953-1.846-1.27-3.015zM7.094 10H3.736l-.005.017a8.5 8.5 0 0 0-.232 1.984 8.5 8.5 0 0 0 .544 3h3.173A20 20 0 0 1 7 12c0-.684.032-1.354.095-2.001Zm1.51 0a19 19 0 0 0 .134 5h6.524a19 19 0 0 0 .135-5zm.277-5.91-.023.008A8.53 8.53 0 0 0 4.25 8.5h3.048c.314-1.752.86-3.278 1.583-4.41m3.12-.591-.117.005C10.62 3.62 9.397 5.622 8.83 8.5h6.342c-.566-2.87-1.783-4.869-3.045-4.995zm3.12.59.106.175c.67 1.112 1.177 2.572 1.475 4.237h3.048a8.53 8.53 0 0 0-4.339-4.29zM21.5 17.985a1.5 1.5 0 0 1 1.5 1.5c0 1.116-.459 2.01-1.212 2.614-.741.595-1.735.886-2.788.886s-2.047-.29-2.788-.886a3.2 3.2 0 0 1-.676-.739c-.342-.519-.536-1.15-.536-1.875a1.5 1.5 0 0 1 1.5-1.5zm-.5-3A2 2 0 0 1 17 15v-.017a2 2 0 0 1 4 0Z" />
+              </svg>
+              <div class="navbar-link-label">About us</div>
+            </a>
+            <a class="navbar-link" href="#latest_release">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="1em"
+                class="navbar-link-icon" role="img">
+                <path fill="currentColor"
+                  d="M10.5 3a2.25 2.25 0 0 1 2.25 2.25v6h6A2.25 2.25 0 0 1 21 13.5v5.25A2.25 2.25 0 0 1 18.75 21H5.25A2.25 2.25 0 0 1 3 18.75V5.25A2.25 2.25 0 0 1 5.25 3zm.75 9.75H4.5v6c0 .414.336.75.75.75h5.999zm7.5 0h-6.001v6.75h6.001a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75M10.5 4.5H5.25a.75.75 0 0 0-.75.75v6h6.75v-6a.75.75 0 0 0-.75-.75m7.398-2.493L18 2a.75.75 0 0 1 .743.648l.007.102v2.5h2.5a.75.75 0 0 1 .743.648L22 6a.75.75 0 0 1-.648.743l-.102.007h-2.5v2.5a.75.75 0 0 1-.648.743L18 10a.75.75 0 0 1-.743-.648l-.007-.102v-2.5h-2.5a.75.75 0 0 1-.743-.648L14 6a.75.75 0 0 1 .648-.743l.102-.007h2.5v-2.5a.75.75 0 0 1 .648-.743" />
+              </svg>
+              <div class="navbar-link-label">Latest Release</div>
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero -->
+      <section class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title">.ORG Projects</h1>
+          <h3 class="hero-subtitle">A nonprofit open-source organization focused on the development and publication of
+            .NET/CLR libraries and frameworks.</h3>
+        </div>
+      </section>
+
+      <!-- About Us / Video -->
+      <section class="about-us" id="about_us">
+        <iframe class="about-us-video"
+          src="https://odysee.com/%24/embed/%40dotorg-projects%3Af%2Fintroducing%3A72?r=5BX6C8C48xapcYcseg4U8m5CE7T9mJHW"
+          allowfullscreen></iframe>
+      </section>
+
+      <!-- Latest Release -->
+      <section class="latest-release" id="latest_release">
+        <h1 class="latest-release-title">Latest Release</h1>
+        <div class="latest-release-content">
+          <div class="latest-release-projects">
+
+            <!-- Entity Platform -->
+            <div class="project-row">
+              <div class="project-logo-col">
+                <img alt="Entity Platform" src="images/ep-logo.png" class="project-logo" />
+              </div>
+              <div class="project-info">
+                <h1 class="project-title project-title--ep">Entity Platform</h1>
+                <div class="project-description"><span class="text-bold">Entity Platform</span> is the team responsible
+                  for designing and developing all <span class="text-bold">.ORG Projects</span> libraries and tools
+                  built on top of <span class="text-italic">EF Core</span>.</div>
+              </div>
+            </div>
+
+            <!-- EP Finder -->
+            <div class="project-row">
+              <div class="project-logo-col">
+                <img alt="EP Finder" src="images/ep-finder-logo.png" class="project-logo" />
+              </div>
+              <div class="project-info">
+                <h1 class="project-title">EP Finder</h1>
+                <div class="project-description"><span class="text-bold">EP Finder</span> brings <span
+                    class="text-italic">convention over configuration</span> to your data layer. Instead of manually
+                  declaring every entity in your <code class="inline-code">DbContext</code>. <span class="text-bold">EP
+                    Finder</span> automatically discovers them by convention, letting you focus on what matters.</div>
+              </div>
+            </div>
+
+          </div>
+          <div class="latest-release-screenshot">
+            <img alt="EP Finder comparison" src="images/ep-finder-launching.png" class="screenshot-img" />
+          </div>
+        </div>
+        <div class="latest-release-links">
+          <a class="release-link" href="https://github.com/dotorg-projects/data-finder/wiki"><svg
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="1em" class="release-link-icon"
+              role="img">
+              <path fill="currentColor"
+                d="M4 4.25A2.25 2.25 0 0 1 6.25 2h4.381a2.25 2.25 0 0 1 1.591.659l4.619 4.619c.422.422.659.994.659 1.59v8.382a2.25 2.25 0 0 1-2.25 2.25h-9A2.25 2.25 0 0 1 4 17.25zm2.25-.75a.75.75 0 0 0-.75.75v13c0 .414.336.75.75.75h9a.75.75 0 0 0 .75-.75V8.998h-3.246a2.25 2.25 0 0 1-2.25-2.25V3.5zm5.754 1.062v2.186c0 .414.336.75.75.75h2.185zM6.629 20.5A2.25 2.25 0 0 0 8.75 22h6.5A4.75 4.75 0 0 0 20 17.25v-5.881a2.25 2.25 0 0 0-.66-1.591l-.84-.841v8.313a3.25 3.25 0 0 1-3.25 3.25z" />
+            </svg></a>
+          <a class="release-link" href="https://www.nuget.org/packages/DotOrgProjects.EntityPlatform.Finder"
+            target="_blank"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" height="1em"
+              style="fill:currentcolor" class="release-link-icon release-link-icon--nuget">
+              <path
+                d="M1.998.342a1.997 1.997 0 1 0 0 3.995 1.997 1.997 0 0 0 0-3.995m9.18 4.34a6.156 6.156 0 0 0-6.153 6.155v6.667c0 3.4 2.756 6.154 6.154 6.154h6.667c3.4 0 6.154-2.755 6.154-6.154v-6.667a6.154 6.154 0 0 0-6.154-6.155zm-1.477 2.8a2.496 2.496 0 1 1 0 4.993 2.496 2.496 0 0 1 0-4.993m7.968 6.16a3.996 3.996 0 1 1-.002 7.992 3.996 3.996 0 0 1 .002-7.992" />
+            </svg></a>
+          <a class="release-link" href="https://dotorg-projects.github.io/data-finder" target="_blank"><svg
+              xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="1em" class="release-link-icon"
+              role="img">
+              <path fill="currentColor"
+                d="M12 2c5.523 0 10 4.478 10 10s-4.477 10-10 10S2 17.522 2 12 6.477 2 12 2m0 1.667c-4.595 0-8.333 3.738-8.333 8.333S7.405 20.333 12 20.333s8.333-3.738 8.333-8.333S16.595 3.667 12 3.667M12 15.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2m0-8.75a2.75 2.75 0 0 1 2.75 2.75c0 1.01-.297 1.574-1.051 2.359l-.169.171c-.622.622-.78.886-.78 1.47a.75.75 0 0 1-1.5 0c0-1.01.297-1.574 1.051-2.359l.169-.171c.622-.622.78-.886.78-1.47a1.25 1.25 0 0 0-2.493-.128l-.007.128a.75.75 0 0 1-1.5 0A2.75 2.75 0 0 1 12 6.75" />
+            </svg></a>
+          <a class="release-link" href="https://github.com/dotorg-projects/data-finder" target="_blank"><svg
+              xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" height="1em" style="fill:currentcolor"
+              class="release-link-icon">
+              <path
+                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+            </svg></a>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-top">
+            <div class="footer-logo-col">
+              <img alt=".ORG Projects" src="images/dotorg-projects-logo.png" class="footer-logo" />
+            </div>
+            <div class="footer-spacer"></div>
+            <div class="footer-social-links">
+              <a class="footer-social-link" href="https://linkedin.com/company/dotorg-projects" target="_blank"><svg
+                  xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" height="1em"
+                  class="footer-social-icon" role="img">
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                </svg></a>
+              <a class="footer-social-link" href="https://nuget.org/profiles/DotOrgProjects" target="_blank"><svg
+                  xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" height="1em"
+                  style="fill:currentcolor" class="footer-social-icon">
+                  <path
+                    d="M1.998.342a1.997 1.997 0 1 0 0 3.995 1.997 1.997 0 0 0 0-3.995m9.18 4.34a6.156 6.156 0 0 0-6.153 6.155v6.667c0 3.4 2.756 6.154 6.154 6.154h6.667c3.4 0 6.154-2.755 6.154-6.154v-6.667a6.154 6.154 0 0 0-6.154-6.155zm-1.477 2.8a2.496 2.496 0 1 1 0 4.993 2.496 2.496 0 0 1 0-4.993m7.968 6.16a3.996 3.996 0 1 1-.002 7.992 3.996 3.996 0 0 1 .002-7.992" />
+                </svg></a>
+              <a class="footer-social-link" href="https://github.com/dotorg-projects" target="_blank"><svg
+                  xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" height="1em"
+                  style="fill:currentcolor" class="footer-social-icon footer-social-icon--github">
+                  <path
+                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                </svg></a>
+              <a class="footer-social-link" href="https://minds.com/dotorg_projects?referrer=dotorg_projects"
+                target="_blank"><svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" height="1em"
+                  style="fill:currentcolor" class="footer-social-icon">
+                  <path
+                    d="M15.496 18.381a.05.05 0 0 0 .03-.033l.693-2.217 3.192-4.791.003-.004.001-.002.001-.002.002-.005v-.003l.002-.003v-.015l-.416-6.947v-.008L19 4.343l-.002-.005-.002-.004-.003-.005-.003-.003v-.001L14.818.016V.014l-.005-.003-.003-.002-.003-.002-.002-.001-.002-.001-.002-.001V.003h-.003l-.002-.001L14.79 0H9.209l-.003.001-.003.001-.005.002-.004.003-.004.002h-.001l-.003.004h-.001l-.003.003-4.172 4.31-.003.005-.006.009-.002.005-.002.008v.002l-.001.003v.003l-.417 6.95v.021l.002.002v.002l.002.002.003.004v.003l3.195 4.79.692 2.215v.003l.001.002.002.003v.001l.001.002v.001l.002.001.001.003.001.001.001.001.002.002.003.004.002.001.002.002h.001l.003.003h.001l.002.001.002.002h.002l.001.001h.002l.001.001h.001l.003.001h.002v.001h.005l.003.001h6.957l.02-.004zm-.058-.1H8.889l7.203-2.095zm.618-2.193L8.619 18.25l2.704-5.678zm.068-.08L11.39 12.49l5.14-4.125zm.11-.087.4-7.542 2.668 2.937zm-7.7 2.27-.647-2.07 3.232-3.36zm-.698-2.166-3.094-4.641 6.457 1.143zm11.472-4.858-2.655-2.92 2.256-3.718zm-7.975 1.236L9.3 5.283l7.188 2.983zm-.102.024-6.508-1.152 4.475-5.966zm5.285-4.26L9.315 5.175 14.748.15zm.095-.053L14.87.217l4.015 4.15zM4.693 11.14l.403-6.72 4.03.807zm4.474-6.011-4.015-.803L9.167.178zm.104-.056V.1h5.376zm-.748 13.36v4.143l1.672-1.403zm.057 4.232 1.53.612 1.81.723-1.67-2.737zM12.081 24l3.339-1.335-1.67-1.402zm3.395-1.424v-4.144l-1.67 2.74zm-6.86-4.192L12 23.932l3.383-5.548z" />
+                </svg></a>
+              <a class="footer-social-link" href="https://mewe.com/join/dotorg-projects" target="_blank"><svg
+                  xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" height="1em"
+                  style="fill:currentcolor" class="footer-social-icon">
+                  <path
+                    d="M3.029 7.712a.768.768 0 1 0 0 1.536.768.768 0 0 0 0-1.536m7.883 0a.768.768 0 1 0 0 1.536.768.768 0 0 0 0-1.536m4.414 0a.768.768 0 1 0 0 1.536.768.768 0 0 0 0-1.536m4.418 0a.768.768 0 1 0 0 1.537.768.768 0 0 0 0-1.537m-4.447 2.307c-.27 0-.453.175-.54.428l-1.378 4.175-1.403-4.193a.546.546 0 0 0-.532-.392c-.296 0-.55.227-.55.523 0 .07.018.148.044.21l1.805 5.056c.105.279.296.444.558.444h.105c.261 0 .461-.165.557-.444l1.36-3.985 1.36 3.985c.096.279.288.444.55.444h.105c.261 0 .462-.174.558-.444l1.804-5.057a.6.6 0 0 0 .052-.218.525.525 0 0 0-.531-.514.55.55 0 0 0-.523.383l-1.404 4.202-1.377-4.175c-.079-.253-.27-.428-.541-.428zM.54 10.045a.54.54 0 0 0-.54.541v5.117c0 .297.227.523.523.523a.52.52 0 0 0 .532-.523V12.05l1.482 2.224c.113.174.253.279.444.279.201 0 .34-.105.454-.28l1.49-2.24v3.661a.54.54 0 0 0 .533.532.53.53 0 0 0 .54-.532v-5.108a.54.54 0 0 0-.54-.54h-.114a.54.54 0 0 0-.488.278L3 13.227l-1.85-2.894a.56.56 0 0 0-.497-.288zm8.368 1.439c-1.316 0-2.25 1.081-2.25 2.397v.018c0 1.42 1.03 2.389 2.363 2.389.715 0 1.239-.236 1.657-.61a.46.46 0 0 0 .14-.323.415.415 0 0 0-.419-.427.4.4 0 0 0-.27.096 1.66 1.66 0 0 1-1.09.4c-.68 0-1.212-.418-1.325-1.168h2.885c.27 0 .497-.209.497-.505 0-1.064-.723-2.267-2.188-2.267m12.904 0c-1.317 0-2.25 1.081-2.25 2.397v.018c0 1.42 1.029 2.389 2.363 2.389.715 0 1.238-.236 1.657-.61a.46.46 0 0 0 .139-.323.415.415 0 0 0-.418-.427.4.4 0 0 0-.271.096 1.65 1.65 0 0 1-1.09.4c-.68 0-1.211-.418-1.325-1.168h2.886c.27 0 .497-.209.497-.505 0-1.064-.724-2.267-2.188-2.267m-12.913.863c.698 0 1.099.532 1.169 1.212H7.705c.096-.715.549-1.212 1.194-1.212m12.904 0c.697 0 1.098.532 1.168 1.212h-2.363c.096-.715.55-1.212 1.195-1.212" />
+                </svg></a>
+              <a class="footer-social-link"
+                href="https://odysee.com/@dotorg-projects:f?r=5BX6C8C48xapcYcseg4U8m5CE7T9mJHW" target="_blank"><svg
+                  xmlns="http://www.w3.org/2000/svg" fill="currentColor" role="img" viewBox="0 0 24 24" height="1em"
+                  class="footer-social-icon footer-social-icon--odysee">
+                  <path
+                    d="M11.965 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12 12 12 0 0 0-3.209-8.167 7.3 7.3 0 0 1-.799 3.218c-.548.957-2.281 2.77-3.264 3.699a.723.723 0 0 0 .056 1.104c.996.74 2.658 2.151 2.788 3.422.176 1.835 1.6 4.02 1.675 4.159a.7.7 0 0 1-.105.327 12 12 0 0 1-2.03 1.898 2.4 2.4 0 0 1-.807.126c-1.944-.04-1.526-1.866-1.712-2.905s-.78-3.085-2.716-2.788c0 0 .484 4.243-1.489 5.546s-5.843 2.27-6.55-.408 2.46-2.384 2.684-2.384c.223 0 2.233-.632 1.267-2.53s-2.01-3.5-2.01-3.5a11.4 11.4 0 0 0-2.735 1.285 5.4 5.4 0 0 0-1.061.82c-1.065 1.104-2.19 1.713-2.954 1.358a1.4 1.4 0 0 1-.32-.221A12 12 0 0 1 .1 13.503c.43-.641 2.082-2.038 3.696-2.906 1.304-.702 2.737-.988 3.118-1.355-.671-2.235-1.882-5.703.832-7.33C9.881.634 12.69-.142 13.77 2.958s.802 3.796 1.267 3.796 1.608.223 2.09-1.75c.356-1.445.574-2.685 1.379-3.087" />
+                </svg></a>
+            </div>
+          </div>
+          <hr class="footer-divider" />
+          <div class="footer-bottom">
+            <div class="footer-bottom-row">
+              <div class="footer-copyright">Copyright &copy; 2026 .ORG Projects, Licensed under the <a
+                  class="footer-license-link" href="https://opensource.org/license/MS-PL" target="_blank">Microsoft
+                  Public Licence</a></div>
+              <div class="footer-bottom-spacer"></div>
+              <div class="footer-credits">Designed, developed and maintained with love by <a class="footer-author-link"
+                  href="https://linkedin.com/in/rrangelo" target="_blank">rrangelo</a> and .ORG Projects</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+</body>
+
+</html>

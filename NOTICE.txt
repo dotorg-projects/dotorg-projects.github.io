@@ -1,0 +1,9 @@
+.ORG Projects
+Copyright (c) 2026 .ORG Projects
+
+This product is licensed under the Microsoft Public License (MS-PL).
+See LICENSE in the project root for license information.
+https://opensource.org/licenses/MS-PL
+
+For more information, visit:
+https://github.com/dotorg-projects
